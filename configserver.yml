@@ -1,1 +1,12 @@
-
+server:
+  port: 8077
+spring:
+  application:
+    name: CONFIGCLIENT
+  # 服务注册中心
+  #cloud:
+   # consul:
+    #  port: 8500
+     # host: localhost
+  profiles:
+    active: dev
